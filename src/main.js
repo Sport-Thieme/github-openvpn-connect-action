@@ -47,10 +47,6 @@ const run = (callback) => {
     fs.writeFileSync("tcv2.key", tlsCryptV2Key, { mode: 0o600 });
   }
 
-  core.info("========== begin configuration ==========");
-  core.info(fs.readFileSync(configFile, "utf8"));
-  core.info("=========== end configuration ===========");
-
   // 2. Run openvpn
 
   // prepare log file
