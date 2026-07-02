@@ -2,7 +2,7 @@
 
 GitHub Action for connecting to OpenVPN server.
 
-## Inputs
+## Inputs 
 
 ### General Inputs
 
